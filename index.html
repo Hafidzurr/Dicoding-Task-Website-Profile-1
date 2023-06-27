@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Profile</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css">
+</head>
+<body>
+      <header>
+        <div class="navigasi">
+          <nav class="nav">
+            <div class="nav-toggle">
+              <input type="checkbox" />
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="nama">
+                <a href="#" >P<a style="color: #E96479;">JUY</a></a>
+            </div>
+            <ul class="nav-list">
+              <li><a href="#">Home</a></li>
+              <li><a href="#artikel">About</a></li>
+              <li><a href="#kontak">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+    <main>
+        <div class="konten">
+            <article>
+                <h1>Who's ?</h1>
+                <p>I am a 20 year old student, originally from Bangka Belitung. Currently, I am studying at Gunadarma University, Department of Information Systems, Faculty of Computer Science and Information Technology. I have a great interest in information technology, especially in web and mobile application development.
+
+                I have proficiency in programming languages ​​such as Java, Python, PHP, HTML, CSS, and JavaScript as well as application development such as Visual Studio Code, NetBeans, Eclipse, Android Studio, and MySQL Workbench. In addition, I also have skills in information systems analysis and project management.
+                    
+                Currently, I am running an independent study program as a student in the Bangkit2023 program, in the program I study related to website development and cloud computing which will be carried out for the next 5 months, namely from February 2023 - July 2023.
+                    
+                I have a goal to become a reliable application developer and contribute to the development of information technology in Indonesia. I hope to gain valuable experience in the information technology industry through internship opportunities and jobs in quality companies. I also plan to continue to develop myself through self-study and take training or certification related to information technology.
+                    
+                I have the ability to communicate and work in a solid team and have a strong motivation to continue learning and developing in the field of information technology. I am sure that with the experience, ability, and motivation that I have, I will be able to achieve my career goals in information technology.
+                    
+                    </p>
+            </article>
+        </div>
+
+        <aside>
+            <div class="picture">
+            <img src="img/gambar.jpg" alt="">
+            <div class="img-title">
+                <h3>Hafidzurrohman Saifullah</h3>
+                <p>Student Of Gunadarma University</p>
+            </div>
+            </div>
+        </aside>
+    </main>
+
+    <footer>
+        <div class="social">
+            <ul>
+              <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fab fa-github"></i></a></li>
+              <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+              <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+            </ul>
+         </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/kursor@0.0.14/dist/kursor.js"></script>
+    <script type="module" defer src="script.js"></script>
+</body>
+<script>
+    const menuToggle = document.querySelector('.nav-toggle input');
+    const nav = document.querySelector('nav ul');
+
+    menuToggle.addEventListener('click', function () {
+      nav.classList.toggle('slide');
+    });
+
+  </script>
+</html>
